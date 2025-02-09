@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1E1E1E;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #FFD700;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    color: #1E1E1E;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers content vertically */
+    text-align: center; /* Ensures text is centered */
+    margin: 20px auto; /* Adds spacing and centers the section */
+    width: fit-content; /* Keeps it from stretching too wide */
+}
+
+.profile-pic {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px; /* Adds spacing between image and text */
+}
+
+.profile-info {
+    text-align: center;
+}
+.profile-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+/* Content Styling */
+main.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #FFD700;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #CCCCCC;
+}
+
+/* Form Styling */
+form {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: 1px solid #FFD700;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+legend {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    background: #2C2C2C;
+    color: white;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #FFD700;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #FFC107;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: #FFD700;
+    color: black;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main.content {
+        width: 90%;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
